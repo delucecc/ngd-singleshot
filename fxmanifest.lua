@@ -1,4 +1,4 @@
-Description 'Vehicle Showcase Script | Nemesis Gaming Development'
+Description 'Fire Control Script | Nemesis Gaming Development'
 author 'deluce#9077'
 fx_version 'cerulean'
 game 'gta5'
