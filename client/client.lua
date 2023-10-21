@@ -1,9 +1,9 @@
 CreateThread(function()
-    local ped = PlayerPedId()
     while true do
+        local ped = PlayerPedId()
         if IsControlJustPressed(0, 24) and Config.WeaponList[GetSelectedPedWeapon(ped)] then
             while IsControlPressed(0, 24) or IsDisabledControlPressed(0, 24) do
-                DisablePlayerFiring(PlayerId(), true)
+                DisablePlayerFiring(ped, true)
                 Wait(0)
             end
         end

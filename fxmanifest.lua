@@ -14,6 +14,7 @@ client_scripts {
 escrow_ignore {
   "config.lua",
   "README.md",
+  'client/*.lua',
 }
 
 lua54 'yes'

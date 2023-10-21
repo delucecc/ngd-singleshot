@@ -1,3 +1,5 @@
+Config = {}
+
 Config.WeaponList = {
-    [`weapon_hkump`] = true,
+    [`weapon_smg`] = true,
   }
